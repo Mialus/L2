@@ -1,0 +1,249 @@
+
+/*______________ DEBUT DE LA FEUILLE DE STYLES ___________________    	
+
+__________________________________________________________________
+
+			RE-INITIALISATION DES TAGS HTML
+	Pour éviter les valeurs par défaut différentes suivant les 
+	navigateurs. Seuls les tags le plus	souvent utilisés et non 
+	dépréciés sont pris en compte.
+	Reset complet : http://meyerweb.com/eric/tools/css/reset/
+__________________________________________________________________
+*/
+html, body, div, span, applet, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+a, img, strong, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	font-weight: normal;	
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1;
+	}	
+ol, ul {
+	list-style: none;
+	}   	
+/* 
+__________________________________________________________________
+
+				FEUILLE DE STYLES ORIGINALE
+__________________________________________________________________ 
+*/
+body {
+	font: 13px/1.4 Verdana, Arial, Sans-Serif;		
+  	color: #404040;
+	background: #9ac5e7 url(../images/fond.jpg) repeat;  	
+	}
+      
+#bcPage {
+	position: relative;
+	background-color: #FFFFFF;
+	border: 2px solid #000;
+	margin: 20px auto 20px auto;
+	width: 800px;
+	text-align: justify;
+}
+	
+#bcEntete {
+	position: relative;
+	background: url(../images/entete.jpg) no-repeat;	
+	height: 200px;
+	padding: 0;
+	margin: 0;
+}	
+
+#bcTexte {
+	padding: 10px;	
+}
+ 
+#bcEnseigne {
+	position: fixed;
+	margin-top: 10px;
+	margin-left: -202px;
+	height: 200px;
+	width: 200px;
+	background: url(../images/enseigne.png) no-repeat;
+}
+	
+h1, h2, h3 {	
+	font-weight: bold;
+	margin: 1em 0;
+	}
+
+h1 { font-size: 21px; }	
+h2 { 
+	font-size: 18px; 
+	border-bottom: 2px solid #FF9B37;
+	padding-left: 0.5em;
+	}
+h3 {
+	font-size: 15px;
+	margin-left: 1em;
+	}
+
+p { margin: 1em; }
+
+strong { font-weight: bold; }
+
+a {
+/*	font-weight: bold; */
+	text-decoration: none; 
+	color: #3c96f1;
+	}
+	
+a:hover { text-decoration: underline; }	
+
+.clear {
+	clear: both;	
+}
+
+.lienExterne:hover {
+	background: url(../images/lien_externe.gif) no-repeat right;
+	padding-right: 20px;	
+	}
+
+ul {
+	margin: 0em 1em 1em 3em;
+	}
+li {
+	background: url(../images/puce.png) no-repeat;	
+	padding-left: 16px;
+}
+		
+#ulMenu {
+	margin: 0 0 2em 1em;
+	}
+#ulMenu ul {
+	margin: 0 1em 0 3em;
+	}
+#ulMenu li {
+	margin: 0.5em 0;
+	}
+
+#lienFacebook {
+	background: url(../images/rezosociaux.jpg) no-repeat 0px 0px;
+	margin-top: 80px;
+	margin-left: 52px;
+}
+
+#lienTwitter {
+	background: url(../images/rezosociaux.jpg) no-repeat -76px 0px;
+	margin-top: 80px;
+	margin-left: 5px;
+}
+
+#lienGooglePlus {
+	background: url(../images/rezosociaux.jpg) no-repeat -38px 0px;
+	margin-top: 5px;
+	margin-left: 52px;
+}
+
+#lienPinterest {
+	background: url(../images/rezosociaux.jpg) no-repeat -113px 0px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+
+#bcEnseigne a {
+	width: 32px;
+	display: block;
+	height: 32px;	
+	float: left;
+}
+
+#bcCompo {
+	position: relative;
+	height: 350px;
+	display: block;
+}
+
+#imgLecteur {
+	top: 125px;
+	left: 350px;
+}
+
+.couverture {
+	position: absolute;	
+}
+
+#imgWatchmen {
+	top: 20px;
+	left: 80px;	
+}
+
+#imgPHP4Dummies {
+	left: 560px;
+	top: 40px;	
+}
+
+#imgH2G2 {
+	left: 240px;
+	top: 120px;	
+}
+
+#imgTWD {
+	top: 200px;
+	left: 430px;	
+}
+
+#img1984 {
+	top: 0px;
+	left: 370px;
+}
+
+#imgPaiementSecurise {
+	float: right;
+	margin-left: 10px;	
+	margin-right: 10px;	
+}
+
+#imgLivraison {
+	float: left;
+	margin-right: 10px;	
+	margin-left: 10px;	
+}
+
+#imgCadeauSouris {
+	float: right;
+	margin-top: 10px;
+	margin-right: -70px;
+	border: solid 2px #000;
+	margin-left: 10px;	
+}
+
+
+#pied {
+	margin: 2em 0 0 0;
+	padding-top: 10px;
+	text-align: center;
+	position: relative;
+	width: 800px;
+	font-size: 10px;
+}
+
+
+#logo {
+	position: absolute; 
+	left: 20px; 
+	top: 10px;		
+}
+
+#soustitre {
+	position: absolute; 
+	bottom: 0px; 
+	right: 0px;	
+}
+
+.font6 {
+	font-size: 6px;	
+}
+			
+/*______________ FIN DE LA FEUILLE DE STYLES ______________________*/   	
+

@@ -1,0 +1,17 @@
+
+# Makefile 1
+all : exec
+
+./puissance : ./puissance.c
+	gcc -lm -o ./puissance ./puissance.c
+	
+exec : ./puissance	
+	./puissance
+	gnuplot scriptGnuplot.gnu
+	gimp ./resultat.jpeg &
+	
+
+# Nettoyage des fichiers intermediaires
+clean : 
+	rm ./tp4; rm ./resultat.jpeg ; 
+

@@ -1,0 +1,15 @@
+.data 
+
+
+add $a0, $v0, $zero
+add $t0, $a0, $zero
+jal Fact
+
+#fonction fact parametre entré dans $a0, retour dans $v0
+Fact:
+	addi $v0, $zero, 1 #Fact(0)=1
+	mul $v0, $v0, $a0
+	addi $a0, $a0, -1
+	j Fact_TantQue
+Fact_FinTantQue:
+jr $ra #retour du prog appelant

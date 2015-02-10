@@ -1,0 +1,26 @@
+(*
+  Fonction listeDeValuations
+  Cette fonction prend en entr�e une liste de propositions atomiques et une
+  valuation courante. Elle permet de construire la liste contenant l'ensemble
+  des valuations possibles pour la liste de propositions atomiques donn�e en
+  param�tre.
+*)
+let rec listeDeValuations lpa vc =
+  let wr a i e = (function x -> if x = i then e else a(x))
+  in match lpa with
+      [] -> vc::[]
+    | pa::rpa -> List.append (listeDeValuations rpa (wr vc pa false))
+	(listeDeValuations rpa (wr vc pa true))
+
+(*
+  Fonction listeValuations
+  Cette fonction prend en entr�e une liste de propositions atomiques et retourne
+  l'ensemble de toutes les valuations possibles pour cette liste de propositions
+  atomiques. Ensemble construit � l'aide de la fonction listeDeValautions.
+*)
+let rec listeValuations lpa =
+  let valuationVrai =
+    (function 
+	 x when List.mem x lpa -> false
+       | _ -> failwith "Erreur ...")
+  in listeDeValuations lpa valuationVrai

@@ -1,0 +1,94 @@
+html, body,aux,p,h1,h2,h3,strong,ol,petit,ul,entete {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+background: url(../images/fond.jpg) repeat;
+
+
+}
+strong{
+  	font-weight : bold;
+
+}
+petit{
+	font:6px/1.4 Arial;
+}
+h1 {
+	color:#404040;
+	font:21px/1.4 Arial;
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+h2 {
+	color:#404040;
+	font:18px/1.4 Arial;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	border-bottom:2px solid #FF9B37;
+
+}
+h3 {
+	color:#404040;
+	font:15px/1.4 Arial;
+	margin-bottom: 1px;
+	margin-top: 1px;
+	margin-left: 1px;
+}
+body {
+	line-height: 1.4;
+	color:#404040;
+	background:url(../images/entete.jpg) no-repeat,white;
+	border:2px solid black;
+	font:13px/1.4 Arial;
+	width: 800px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+p{
+	margin-bottom: 1px;
+	margin-top: 1px;
+	margin-left: 2px;
+	margin-right: 0px;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+  text-decoration: none;
+  color: #3c96f1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:hover {
+	text-decoration: underline;
+}
+aux:hover {
+	text-decoration: underline;
+	background-url:url(../images/lien_externe.gif);
+}
+

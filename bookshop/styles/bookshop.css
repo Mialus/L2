@@ -1,0 +1,349 @@
+html, body,ext,p,h0,h1,h2,centre,h3,haut,fixe,position,flotte,deco,hautpage,flotte2,flotte3,il,cadeau,conteneur,strong,ol,petit,ul,li,centre,entete {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	background: url(../images/fond.jpg) repeat;
+
+
+}
+strong{
+  	font-weight : bold;
+
+}
+petit{
+	font:6px/1.4 Arial;
+}
+h0{
+	color:#404040;
+	font:21px/1.4 Arial;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+h1 {
+	color:#404040;
+	font:21px/1.4 Arial;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	border-bottom:2px solid #FF9B37;
+
+}
+h2 {
+	color:#404040;
+	font:18px/1.4 Arial;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+
+
+}
+h3 {
+	color:#404040;
+	font:15px/1.4 Arial;
+	font-weight : bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	margin-left: 1px;
+
+}
+body {
+	line-height: 1.4;
+	color:#404040;
+	background:white;
+	border:2px solid black;
+	font:13px/1.4 Arial;
+	width: 800px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#deco{
+margin-left:50px;
+
+}
+p{
+	margin-bottom: 1px;
+	margin-top: 1px;
+	margin-left: 1em;
+	margin-right: 0px;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.position{
+	position:relative;
+	top:167px;
+	visibility:hidden;
+}
+a {
+	text-decoration: none;
+	color: #3c96f1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:hover {
+	text-decoration: underline;
+}
+#ext:hover {
+
+	background:url(../images/lien_externe.gif) no-repeat;
+}
+li{
+	list-style-image:url(../images/puce.png);
+	margin-left: 5em;
+	margin-bottom: 0.5em;
+	background-repeat: no-repeat;
+
+}
+.entete{
+	margin-left: 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.haut{
+	margin-left: 0em;
+	margin-bottom: 2em;
+}
+#yoda{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:680px;
+	height:350px;
+}
+#watch{
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+#H2G2{
+	position:absolute;
+	left:150px;
+	top:125px;
+}
+#owell{
+	position:absolute;
+	left:275px;
+	top:0px;
+}
+#lecteur{
+	position:absolute;
+	left:250px;
+	top:125px;
+}
+#TWD{
+	position:absolute;
+	left:333px;
+	top:200px;
+}
+#PHP4{
+	position:absolute;
+	left: 460px;
+	top:40px;
+}
+cadeau{
+	:url(../images/cadeau_souris.jpg) right;
+}
+.flotte {
+	float:right;
+	border:2px solid black;
+	margin-right:-70px;
+	margin-top:2px;
+}
+.flotte2 {
+	float:left;
+}
+.flotte3 {
+	float:right;
+}
+#hautpage{
+	height:200px;
+	background:url(../images/entete.jpg) no-repeat;
+}
+#hautpage:hover .position{
+	visibility:visible;
+}
+.milieu{
+	margin-left: auto;
+	margin-right: auto;
+}
+img[src$="../images/logo.png"]{
+	position:absolute;
+	margin-left:20px;
+	margin-top:10px
+}
+img[src$="../images/soustitre.png"]{
+	position:absolute;
+	margin-left:422px;
+	margin-top:150px
+}
+
+.fixe {
+	position : fixed;
+	background:url(../images/enseigne.png) no-repeat;
+	right:50%;
+	margin-left:100px;
+	padding-left:600px;
+	padding-top:280px;
+
+}
+.centre{
+text-align: center; 
+}
+#facebook{
+	background-image:url("../images/rezosociaux.jpg");
+	background-position:0% 0%;
+	position:fixed;
+	height:32px;
+	width:32px;
+	margin-left:-550px;
+	margin-top:-200px;
+}
+#search{
+	position:absolute;
+	background-image:url("../images/icon-search.png");
+	height:55px;
+	width:55px;
+	margin-left:0px;
+}
+#cart{
+	position:absolute;
+	background-image:url("../images/icon-cart.png");
+	height:55px;
+	width:55px;
+	margin-left:65px;
+}
+#list{
+	position:absolute;
+	background-image:url("../images/icon-list.png");
+	height:55px;
+	width:55px;
+	margin-left:130px;
+}
+#account{
+	position:absolute;
+	background-image:url("../images/icon-account.png");
+	height:55px;
+	width:55px;
+	margin-left:195px;
+}
+#logout{
+	position:absolute;
+	background-image:url("../images/icon-logout.png");
+	height:55px;
+	width:55px;
+	margin-left:300px;
+}
+#cart:hover{
+	background-image:url("../images/icon-cart-hover.png");
+	height:55px;
+	width:55px;
+}
+#list:hover{
+	background-image:url("../images/icon-list-hover.png");
+	height:55px;
+	width:55px;
+}
+#account:hover{
+	background-image:url("../images/icon-account-hover.png");
+	height:55px;
+	width:55px;
+}
+#logout:hover{
+	background-image:url("../images/icon-logout-hover.png");
+	height:55px;
+	width:55px;
+}
+#search:hover{
+	background-image:url("../images/icon-search-hover.png");
+	height:55px;
+	width:55px;
+}
+#twitter{
+	background-image:url("../images/rezosociaux.jpg");
+	background-position:70% 0%;
+	position:fixed;
+	height:32px;
+	width:32px;
+	margin-left:-510px;
+	margin-top:-200px;
+}
+
+#google{
+	background-image:url("../images/rezosociaux.jpg");
+	background-position:30% 0%;
+	position:fixed;
+	height:32px;
+	width:32px;
+	margin-left:-550px;
+	margin-top:-159px;
+}
+
+#pinterest{
+	background-image:url("../images/rezosociaux.jpg");
+	background-position:100% 0%;
+	position:fixed;
+	height:32px;
+	width:32px;
+	margin-left:-510px;
+	margin-top:-159px;
+}
+.walk{
+		margin-right: auto;
+		margin-left: auto;
+		margin-top: auto;
+		margin-bottom: auto;
+}
+.imageCach{
+	visibility:hidden;
+}
+.div2:hover .imageCach{
+	visibility:visible;
+}
+.div2{
+	position:relative;
+	display:table-cell;
+	width:200px;
+	height:195px;
+	padding-left:50px;
+ }
+div3#{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	margin-bottom: auto;
+	
+}
+.pos1{
+ margin-left:115px;
+ margin-top:-150px;
+
+}
+.ajust{
+	margin-top:50px;
+}

@@ -1,0 +1,3 @@
+c=(c+decalage-'A')%26+'A';
+
+déchiffrement 26-clé

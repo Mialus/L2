@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<title>index</title>
+		<link href="../styles/bookshop.css" rel="stylesheet">
+	</head>
+	<body>
+		<!-- div qui contient l'enseigne avec les logo facebook, twiter, etc-->
+	<div class="fixe">
+		<a id="facebook" href="https://fr-fr.facebook.com/"></a>
+		<a id="twitter" href="https://twitter.com/" ></a>
+		<a id="google" href="http://www.plus.google.com" ></a>
+		<a id="pinterest"href="https://www.pinterest.com" ></a>
+	</div> 
+	<div id="hautpage">
+		<a target=_blank href="presentation_12.html"><img src="../images/logo.png" width="422" height="153"></a>
+		<img src="../images/soustitre.png" width="364" height="50"/>
+<!-- les liens sous le logo qui deviennent blanc lorsque la souris passe dessus et apparaissent lorsque la souris passe sur le bloc contenant le logo -->
+		<a target=_blank class="position" id="search" href="../php/recherche.php" title="Effectuer une recherche" border="0"></a>
+		<a target=_blank class="position" id="cart"href="../php/panier.php" title="Voir votre panier" border="0"></a>
+		<a target=_blank class="position" id="list"href="../php/liste.php" title="Consulter une liste de cadeaux" border="0"></a>
+		<a target=_blank class="position" id="account"href="../php/compte.php" title="Accéder à votre compte" border="0"></a>
+		<a class="position" id="logout" target=_blank href="../php/deconnexion.php" title="Se deconnecter" border="0"></a>
+	</div>
+
+	<h0></br><p>Bienvenue sur bookshop !</p></h0>
+
+	<p><br>Passez la souris sur le logo et laissez-vous guider pour découvrir les derniéres exclusivités de notre site.<br><br>
+Nouveau venu sur bookshop ? Consulter notre <a target="_blank" href="presentation_12.html">page de présentation</a> !</p>
+
+	<h1><p>Dernières nouveautés</p></h1>
+<p>Voici les 4 derniers articles ajoutés dans notre boutique en ligne :<br></br></p>
+<!--  div contenant les blocs contenant les images-->
+<div id="div3">
+<!-- bloc contenant image et texte-->
+      <div class="div2">
+                <p class="walk">
+                
+               <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"> <img src="../images/1984.jpg" width="100" height="160"></a>
+                      <div class="pos1"><!-- bloc contenant les images invisibles tant que la souris n'est pas sur le livre-->
+                      <a target=_blank href="erreur404.html" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404.html" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+                      <a title="Rechercher l'auteur"target=_blank href="recherche.php?type=auteur&quoi=YYY" >G.Orwell</a>
+                      <strong></br>1984</strong>
+                      </p>
+      </div>
+      <!-- répétition du même schéma-->
+    <div class="div2">     
+              <p class="walk">    
+              <div>
+              </div>
+               <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"> <img id="walk" src="../images/livres/41_mini.jpg" width="100" height="160"></a></br>
+               <div class="pos1">
+                      <a target=_blank href="erreur404.html" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404.html" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+              <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" > R.Kifkman</a>, <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" > C.Adlard</a></br>
+                <strong>The Walking Dead -</br> T16 Un vaste monde</strong>
+                </p>
+    </div>
+              
+    <div class="div2">   
+            <p class="walk"> 
+            <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"><img id="brad" src="../images/livres/40_mini.jpg" width="100" height="160"></a></br>
+             <div class="pos1">
+                      <a target=_blank href="erreur404.html" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404.html" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+            <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" >R.Bradbury</a></br>
+             <strong>L'Homme Illustré</strong>
+             </p>
+    </div>
+    <div class="div2">
+        <p class="walk"> 
+        <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"><img src="../images/livres/39_mini.jpg" width="100" height="160"></a></br>
+         <div class="pos1">
+                      <a target=_blank href="erreur404.html" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404.html" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+         <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" >A.Moore</a>, <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" > D.Lioyd</a></br>
+         <strong>V pour Vendetta</strong>
+         </p>
+    </div>
+</div>
+
+<h1><p>Top des ventes</p></h1>
+<p>Voici les 4 articlesles plus vendus :<br></br></p>
+<div id="div3">
+      <div class="div2">
+                <p class="walk">
+               <a target=_blank href="details.php?article=XXX" title="Voir Article"> <img src="../images/watchmen.jpg" width="100" height="160"></a>
+                      <div class="pos1">
+                      <a target=_blank href="erreur404.html" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404.html" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+                      <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" >A.Moore</a>, <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" > D.Gibbons</a>
+                      <strong></br>Watchmen</strong>
+                      </p>
+      </div>
+    <div class="div2">
+        <p class="walk"> 
+        <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"><img src="../images/livres/39_mini.jpg" width="100" height="160"></a></br>
+         <div class="pos1">
+                      <a target=_blank href="erreur404" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+         <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" >A.Moore</a>, <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" > D.Lioyd</a></br>
+         <strong>V pour Vendetta</strong>
+         </p>
+         </div>
+              
+    <div class="div2">   
+            <p class="walk"> 
+            <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"><img id="brad" src="../images/livres/27_mini.jpg" width="100" height="160"></a></br>
+             <div class="pos1">
+                      <a target=_blank href="erreur404" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+            <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" >R.Bradbury</a></br>
+             <strong>The Walking Dead - La</br>route de Woodbury</strong>
+             </p>
+    </div>
+    <div class="div2">
+        <p class="walk"> 
+        <a target=_blank href="details.php?article=XXX" title="Voir Article" border="0"><img src="../images/livres/34_mini.jpg" width="100" height="160"></a></br>
+         <div class="pos1">
+                      <a target=_blank href="erreur404" title="Ajouter au panier" class="imageCach" border="0"><img src="../images/btnAddToCart.png" width="32" height="32"></a>
+                      <a target=_blank href="erreur404" title="Ajouter à la liste de cadeaux" class="imageCach"border="0"><img src="../images/btnAddToWishlist.png" width="32" height="32"></a>
+                      </div>
+                      </br> </br> </br> </br> 
+         <a title="Rechercher l'auteur" target=_blank href="recherche.php?type=auteur&quoi=YYY" >A.Huxley</a></br>
+         <strong>Le Meilleur ds Mondes</strong>
+         </p>
+    </div>
+</div>
+<p class="centre"><br>BookShop & Partners (c) 2014 - <a href="erreur404">A propos</a> - <a href="erreur404">Emplois @ BookShop</a> - <a href="erreur404">Conditions d'utilisation</a> </p>
+</body>
+</html>

@@ -1,0 +1,7 @@
+addi $t0, $zero, 1
+TantQue:
+	beq $v0, $zero,FinTantQue
+	mul $t0, $t0, $v0
+	addi $v0, $v0, -1
+	j TantQue
+FinTantQue:

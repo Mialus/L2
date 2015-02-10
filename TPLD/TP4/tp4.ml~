@@ -1,0 +1,12 @@
+let rec affiche = function
+  n -> if (n > 0)
+       then (
+         print_int n ;
+         affiche(n-1)
+       )
+let rec affichebis = function
+  n -> if (n > 0)
+       then (
+         affichebis(n-1);
+         print_int n
+       )

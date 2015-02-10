@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+    int i;
+    int tab[4];
+    int somme=0;
+    for (i=0; i< 4; i++){
+      printf("donnez la valeur de l'element %d\n",i+1);
+      scanf("%d",&tab[i]);
+    } 
+    for (i=0; i< 4; i++){
+       somme=somme+tab[i];
+    }
+    printf("la somme des elements du tableau vaut %d\n",somme);
+}

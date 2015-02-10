@@ -1,0 +1,89 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+
+struct maille{
+  int valeur;
+  struct maille *suivant;
+};
+
+typedef struct maille Maillon;
+typedef Maillon * Piquet;
+typedef Piquet Jeu [3];
+
+
+typedef struct{
+  int* pixel;
+  int largeur;
+  int hauteur;
+} ecran;
+
+void initialisePiquet (Piquet * p){
+  *p = NULL;
+}
+
+void push (Piquet * p, int v){
+  int b;
+  Maillon * e;
+  e = (Maillon *) malloc(sizeof(Maillon));
+  e -> valeur = v;
+  e -> suivant = *p;
+  *p = e;
+}
+
+int pop (Piquet *p){
+  Piquet aux;
+  int v;
+  aux = *p;
+  v=0;
+  if(aux!=NULL){
+    v=aux->valeur;
+    *p=aux->suivant;
+    free(aux);
+  }
+  return v;
+}
+
+void affichePiquet(Piquet p){
+  Piquet aux;
+  aux = p;
+  while (aux!=NULL){
+    printf("%d ",aux-> valeur);
+    aux = aux -> suivant;
+  }
+  printf("\n");
+}
+
+
+int main(){
+  int nbrDisk;
+  Piquet p1,p2,p3;
+  initialisePiquet (&p1);
+  initialisePiquet (&p2);
+  initialisePiquet (&p3);
+
+  printf("Veullez taper le nombre de disque : \n");
+  scanf("%d",nbrDisk);
+  
+  pwinitJeu(&p1,nbrDisk);
+  
+  pwafficheJeu(p1,p2,p3);
+}
+
+void pwinitJeu(Piquet *p, int nbr){
+  int i;
+  
+  for(i=nbr;i>0;i--){
+  push(&p,i);
+  }
+
+}
+
+void pwafficheJeu(Piquet p1, Piquet p2, Piquet p3){
+
+  affichePiquet(p1);
+  affichePiquet(p2);
+  affichePiquet(p3);
+}
+
+

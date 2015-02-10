@@ -1,0 +1,194 @@
+html, body,ext,p,h1,h2,h3,haut,fixe,flotte,hautpage,flotte2,flotte3,il,cadeau,conteneur,strong,ol,petit,ul,li,centre,entete {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	background: url(../images/fond.jpg) repeat;
+
+
+}
+strong{
+  	font-weight : bold;
+
+}
+petit{
+	font:6px/1.4 Arial;
+}
+h1 {
+	color:#404040;
+	font:21px/1.4 Arial;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	border-bottom:2px solid #FF9B37;
+
+}
+h2 {
+	color:#404040;
+	font:18px/1.4 Arial;
+	font-weight: bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+
+
+}
+h3 {
+	color:#404040;
+	font:15px/1.4 Arial;
+	font-weight : bold;
+	margin-bottom: 1em;
+	margin-top: 1em;
+	margin-left: 1px;
+
+}
+body {
+	line-height: 1.4;
+	color:#404040;
+	background:white;
+	border:2px solid black;
+	font:13px/1.4 Arial;
+	width: 800px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+p{
+	margin-bottom: 1px;
+	margin-top: 1px;
+	margin-left: 1em;
+	margin-right: 0px;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+a {
+	text-decoration: none;
+	color: #3c96f1;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a:hover {
+	text-decoration: underline;
+}
+#ext:hover {
+
+	background:url(../images/lien_externe.gif) no-repeat;
+}
+li{
+	list-style-image:url(../images/puce.png);
+	margin-left: 5em;
+	margin-bottom: 0.5em;
+	background-repeat: no-repeat;
+
+}
+.entete{
+	margin-left: 3em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+.haut{
+	margin-left: 0em;
+	margin-bottom: 2em;
+}
+#yoda{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width:680px;
+	height:400px;
+}
+img[src$="../images/watchmen.jpg"]{
+	position:absolute;
+	left:0px;
+	top:20px;
+}
+img[src$="../images/H2G2.jpg"]{
+	position:absolute;
+	left:150px;
+	top:125px;
+}
+img[src$="../images/1984.jpg"]{
+	position:absolute;
+	left:275px;
+	top:0px;
+}
+img[src$="../images/lecteur.png"]{
+	position:absolute;
+	left:250px;
+	top:125px;
+}
+img[src$="../images/TWD.jpg"]{
+	position:absolute;
+	left:333px;
+	top:200px;
+}
+img[src$="../images/PHP4dummies.jpg"]{
+	position:absolute;
+	left: 460px;
+	top:40px;
+}
+cadeau{
+	:url(../images/cadeau_souris.jpg) right;
+}
+.flotte {
+	float:right;
+	border:2px solid black;
+	margin-right:-70px;
+	margin-top:2px;
+}
+.flotte2 {
+	float:left;
+}
+.flotte3 {
+	float:right;
+}
+#hautpage{
+	height:200px;
+	background:url(../images/entete.jpg) no-repeat;
+}
+.milieu{
+	margin-left: auto;
+	margin-right: auto;
+}
+img[src$="../images/logo.png"]{
+	position:absolute;
+	margin-left:20px;
+	margin-top:10px
+}
+img[src$="../images/soustitre.png"]{
+	position:absolute;
+	margin-left:422px;
+	margin-top:150px
+}
+.fixe {
+  /* un bloc fixe situé en haut qui fait toute la largeur */
+	float:right;
+	position : fixed;
+	background:url(../images/enseigne.png) no-repeat;
+	left:200px;
+	right:200px;
+	height:200px;
+}

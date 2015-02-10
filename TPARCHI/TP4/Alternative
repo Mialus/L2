@@ -1,0 +1,15 @@
+.data
+	Egaux: .asciiz "nombre egaux \n"
+	Lecture: .asciiz "écrivez un nombre : \n"
+	Diff: .asciiz "nombre différent \n"
+	
+
+.text
+main:
+bne $t0, $v0, Sinon
+Alors:
+	la $a0, Egaux
+	j FinSi
+Sinon:
+	la $a0, Diff
+FinSi:

@@ -1,0 +1,10 @@
+#include<stdio.h> 
+#include<stdlib.h>
+
+int main(){
+    int i; int j; float k; char c;
+    i=1; j=2; k=3.4; c='A';
+    printf("la variable i vaut %d \n", i);
+    printf("la variable j vaut %d et la variable k %f \n", j,k);
+    printf("La première lettre de l'alphabet est %c\n", c);
+}
